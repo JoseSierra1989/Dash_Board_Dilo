@@ -1,0 +1,141 @@
+*{
+	padding: 0px;
+	margin:  0px;
+	font-family: 'Roboto', sans-serif;
+ }
+ body{
+ 	background: #E0E0E0;
+ }
+ p{
+ 	padding: 5px;
+ }
+ header{
+ 	width: auto;
+ 	height: 60Px;
+ 	background: #D32F2F;
+ 	display: flex;
+ 	justify-content: flex-end;
+ 	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+
+ }
+header ul{
+	display: flex;
+	list-style: none;
+}
+header ul li a{
+	display: block;
+	padding: 21px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+header ul ul{
+	position: absolute;
+	top: 60Px;
+	display: block;
+	background: #B71C1C;
+	transform: translateY(-150%);
+	opacity: 0;
+	transition: all .6s;
+}
+header ul li:hover{
+	background: #EF9A9A;
+}
+header ul li:hover ul{
+	opacity: 1;
+	transform: translateY(0%);
+}
+#Home{
+	background: #EF5350;
+}
+#Home a:hover {
+  background-color: #EF9A9A;
+}
+.menu{
+	position: fixed;
+	width: 100%;
+ 	height: 60Px;
+ 	background: #D32F2F;
+ 	display: flex;
+ 	justify-content: flex-end;
+}
+
+.menu-vertical {
+	padding: 10px;
+	margin:10px 10px;
+    width: auto;
+    height: 1200px;
+    display: inline-block;
+	float: 	left;
+}
+.menu-vertical a {
+    background-color: #FFF;
+    color: black;
+    display: block;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;	
+}
+.menu-vertical a:hover {
+    background-color: #ccc;
+}
+.menu-vertical a.active {
+    background-color: #FF1744;
+    color: white;
+}
+.title{
+	background:#FF3D00;
+	justify-content: flex-start;
+	height: 50px;
+	border-radius: 5px;
+}
+.title-card{
+	padding: 15px;
+	text-align: center;
+	color: white;
+}
+.iconconf .setting em {
+	display: inline-flex;
+	color: white;
+	justify-content: flex-end;
+}
+.box h3{
+    text-align:center;
+	position:relative;
+	top:80px;
+}
+.wrapper {
+	display: inline-block;
+	float: 	left;		
+	padding: 5px;
+	width:450px;
+	background:#FFF;
+	margin:20px 10px;
+	border-radius: 3px
+	
+
+}
+.effect{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 75px;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+#body{
+	padding: 65px 1px;
+}
+
+
