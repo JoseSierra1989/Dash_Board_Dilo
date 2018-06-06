@@ -112,12 +112,85 @@ header ul li:hover ul{
 	display: inline-block;
 	float: 	left;		
 	padding: 5px;
-	width:450px;
+	width:600px;
+	height: 400px;
 	background:#FFF;
 	margin:20px 10px;
 	border-radius: 3px
-	
-
+}
+.arbol_alarma {
+	display: inline-block;
+	float: 	left;		
+	padding: 5px;
+	width: 1150px;
+	height: 600px;
+	background:#FFF;
+	margin:20px 10px;
+	border-radius: 3px
+}
+.importar {
+	display: inline-block;
+    float: left;
+    padding: 11px;
+    width: 593px;
+    height: 301px;
+    background: #FFF;
+    margin: 21px 10px;
+    border-radius: 3px;
+}
+.insert { 
+	display: inline-block;
+	float: 	left;		
+	padding: 5px;
+	width:989px;
+	height: 593px;
+	background:#FFF;
+	margin:20px 10px;
+	border-radius: 3px
+}
+.importar_archivo {
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 447px;
+  margin: 20px auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+p#textoimpor {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+section#impotardocsv {
+	position: relative;
+	padding: 10px;
+	width: 437px;
+	background-color: #E53935;
+	-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+			-webkit-box-shadow: 0px 5px 0px #B71C1C;
+				-moz-box-shadow: 0px 5px 0px #B71C1C;
+}
+input.insercion {
+	position: absolute;
+	opacity: 0;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+input#enviar {
+	padding: 17px 168px;
+	color: white;
+	font-size: 1em;
+	background-color: #E53935;
+	-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+			-webkit-box-shadow: 0px 5px 0px #B71C1C;
+				-moz-box-shadow: 0px 5px 0px #B71C1C;
 }
 .effect{
 	-webkit-box-shadow: 0 10px 6px -6px #777;
@@ -137,5 +210,4 @@ header ul li:hover ul{
 #body{
 	padding: 65px 1px;
 }
-
 

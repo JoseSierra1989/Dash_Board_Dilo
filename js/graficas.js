@@ -1,3 +1,5 @@
+
+
 var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 
 var ctx = document.getElementById('arbol_alarmas').getContext('2d')
@@ -7,9 +9,9 @@ var ctx = document.getElementById('arbol_alarmas').getContext('2d')
 
                      // El tipo de dato para el set de datos
                     data: {
-                        labels: ["January", "February", "March", "April", "May", "June", "July"],
+                        labels: ["W7", "W8", "W10", "W11", "W12", "W13", "W14", "W15", "W16", "W17", "W18"],
                         datasets: [{
-                            label: "Arbol de Alarmas",
+                            label: "CANTIDAD DE TICKETS POR SEMANA",
                             backgroundColor: 'rgb(255, 99, 132, 0.2)',
                             borderColor: 'rgb(255, 99, 132, 1)',
                             data: [randomScalingFactor(), randomScalingFactor(),randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor(), randomScalingFactor()],

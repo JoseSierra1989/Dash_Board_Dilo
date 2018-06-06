@@ -1,5 +1,6 @@
 <?php include ('PHP/coneccion.php'); ?>
 
+
 <!DOCTYPE html>
 <html lang="es">	
 <head>
@@ -11,9 +12,9 @@
 	<meta name="Autor" content="Jose Luis Sierra Ramirez, Ingeniero Desarrollador Dashboard_dilo">
 	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Black+Han+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="estilos/estilo.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 	<script src="js/Chart.js"></script>
-	<script src="js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
 	<header class="menu">
@@ -38,15 +39,15 @@
 					<li><a href="#"><em class= "fas fa-angle-right"></em> Historico 2</a></li>
 				</ul>
 				</li>
-				<li><a href="#"><em class="fas fa-file-excel"></em> Import</a></li>
+				<li><a href="formulario_insercion_alarmas.php"><em class="fas fa-file-excel"></em> Import</a></li>
 				<li><a href="#"><em class="fas fa-download"></em> export</a></li>
 			</ul>
 		</nav>
 	</header>
 	<div id="body">
 	<nav class="menu-vertical">
-		<em><strong><a href="#" class="active"><em class="fas fa-tachometer-alt"></em> DASHBOARD</a></strong></em>
-		<a href="#"><strong><em class= "fas fa-angle-right"></em></strong> Arbol de alarmas</a>
+		<em><strong><a href="index.php" class="active"><em class="fas fa-tachometer-alt"></em> DASHBOARD</a></strong></em>
+		<a href="arbol_alarmas.php"><strong><em class= "fas fa-angle-right"></em></strong> Arbol de alarmas</a>
 		<a href="#"><strong><em class= "fas fa-angle-right"></em></strong> Zona Costa</a>
 		<a href="#"><strong><em class= "fas fa-angle-right"></em></strong> Zona Oriente Bogota</a>
 		<a href="#"><strong><em class= "fas fa-angle-right"></em></strong> Zona Oriente Costa</a>
@@ -63,7 +64,7 @@
 					<li><a class="setting" href="#"><em class="fas fa-cogs"></em></a></li>
 				</ul>
 		</header>
-			<p><canvas id="arbol_alarmas" width="450" height="164"></canvas></p>			
+			<p><canvas id="arbol_alarmas" width="450" height="264"></canvas></p>			
 	</section>
 	<section class="wrapper effect">	
 		<header class="title">
@@ -152,7 +153,7 @@
 		<p><small> &copy Lorem Ipsum </small></p>	
 	</footer>
 
-	<script src="js/graficas.js"></script>
 	
 </body>
 </html>
+<?php include ('PHP/graficas.php'); ?>
